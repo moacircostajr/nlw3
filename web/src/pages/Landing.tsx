@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/pages/landing.css'
-import logoImg from '../images/map-marker.svg'
+import logoImg from '../images/logo.svg'
 import { FiArrowRight } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 
