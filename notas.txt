@@ -1,0 +1,14 @@
+import express from 'express'
+
+const app = express()
+
+app.get('/users/:id', (request, response) => {
+  console.log(request.query)
+  console.log(request.body)
+  console.log(request.params)
+  return response.json({ message: 'Hello World' })
+})
+
+app.listen(3333)
+
+DRIVER NATIVO, ORM, QUERY BUILDER
