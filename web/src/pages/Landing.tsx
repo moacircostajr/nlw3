@@ -1,7 +1,8 @@
 import React from 'react'
 import './landing.css'
-import logoImg from '../../images/map-marker.svg'
+import logoImg from '../images/map-marker.svg'
 import { FiArrowRight } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 interface Props {
 
@@ -23,9 +24,9 @@ const Landing = (props: Props) => {
           <span>Ceará</span>
         </div>
 
-        <a href="" className="enter-app">
+        <Link to="/app" className="enter-app">
           <FiArrowRight size={26} color="rgba(0, 0, 0, 0.6)" />
-        </a>
+        </Link>
       </div>
     </div>
   )
